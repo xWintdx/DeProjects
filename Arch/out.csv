@@ -1,0 +1,4 @@
+order_id,amount,category,amount_usd,amount_category,is_large
+1,100.0,food,1.1111111111111112,100.0_food,False
+2,250.0,tech,2.7777777777777777,250.0_tech,True
+5,200.0,tech,2.2222222222222223,200.0_tech,True

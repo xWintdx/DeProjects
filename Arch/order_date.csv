@@ -1,0 +1,8 @@
+transaction_id,amount,status,extra_col1,extra_col2
+t1,100.50,SUCCESS,foo,bar
+t2,50.00,FAILED,baz,qux
+t3,200.00,success,abc,def
+t4,10.00,PENDING,ghi,jkl
+t5,300.25, Success ,mno,pqr
+t6,0.00, SuCcEsS ,stu,vwx
+t6,null,SUCCESS,stv,vwx
