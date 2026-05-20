@@ -6,9 +6,6 @@ import numpy as np
 import logging
 from pathlib import Path
 
-import pytest
-
-
 def extract_and_clear_data (filename:str):
     try:
         total_amount = 0
@@ -179,4 +176,3 @@ orders = [
     {'id': 5, 'amount': float('nan'), 'category': 'tech'},
     {'id': 6, 'amount': 200.0, 'category': 'tech'},
 ]
-(clean_orders(orders)
