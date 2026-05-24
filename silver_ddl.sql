@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS silver.prd_info (
     prd_id INTEGER PRIMARY KEY,
     prd_key VARCHAR(50) UNIQUE,
     prd_nm VARCHAR(50),
-    prd_cost VARCHAR(50),
+    prd_cost NUMERIC,
     prd_line VARCHAR(50),
     prd_start_dt DATE,
     prd_end_dt DATE,
