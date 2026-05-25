@@ -3,6 +3,7 @@
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/silver_cust_info_dml.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/silver_ddl.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/silver_prd_info_dml.sql" dialect="PostgreSQL" />
     <file url="PROJECT" dialect="PostgreSQL" />
   </component>
 </project>
