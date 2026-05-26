@@ -4,6 +4,14 @@
     <file url="file://$PROJECT_DIR$/silver_cust_info_dml.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/silver_ddl.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/silver_prd_info_dml.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/tests/test_cust_duplicates.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/tests/test_cust_gndr_values.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/tests/test_cust_trim_values.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/tests/test_prd_chronology.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/tests/test_prd_info_duplicates.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/tests/test_prd_info_line_values.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/tests/test_prd_info_nuil_in_cost.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/tests/test_prd_info_trim.sql" dialect="PostgreSQL" />
     <file url="PROJECT" dialect="PostgreSQL" />
   </component>
 </project>
