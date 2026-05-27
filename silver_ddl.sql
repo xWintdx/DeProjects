@@ -33,8 +33,9 @@ CREATE TABLE IF NOT EXISTS silver.prd_info (
     );
 
 CREATE TABLE IF NOT EXISTS silver.sales_details (
-    sls_ord_num INTEGER PRIMARY KEY,
-    sls_prd_key VARCHAR(50) UNIQUE,
+    row_id SERIAL PRIMARY KEY,
+    sls_ord_num VARCHAR(50),
+    sls_prd_key VARCHAR(50),
     sls_cust_id INTEGER,
     sls_order_dt DATE,
     sls_ship_dt DATE,
@@ -42,7 +43,8 @@ CREATE TABLE IF NOT EXISTS silver.sales_details (
     sls_sales NUMERIC,
     sls_quantity INTEGER,
     sls_price NUMERIC,
-    dw_create_date TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+    dw_create_date TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
+    CONSTRAINT unique_prd_key_in_ord_num UNIQUE (sls_ord_num, sls_prd_key)
     );
 
 CREATE TABLE IF NOT EXISTS silver.cust_az12 (
