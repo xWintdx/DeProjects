@@ -23,6 +23,7 @@ CREATE TABLE IF NOT EXISTS silver.cust_info (
 
 CREATE TABLE IF NOT EXISTS silver.prd_info (
     prd_id INTEGER PRIMARY KEY,
+    cat_id VARCHAR(50),
     prd_key VARCHAR(50),
     prd_nm VARCHAR(50),
     prd_cost NUMERIC,

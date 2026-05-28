@@ -4,6 +4,7 @@ TRUNCATE TABLE silver.prd_info;
 -- Шаг 2: Заливаем новые данные
 INSERT INTO silver.prd_info (
                              prd_id,
+                             cat_id,
                              prd_key,
                              prd_nm,
                              prd_cost,
@@ -26,7 +27,8 @@ WITH deduplicated_source AS (
 cleared_source AS (
     SELECT
         prd_id,
-        TRIM(prd_key) as prd_key,
+        REPLACE(SUBSTRING(TRIM(prd_key), 1, 5), '-', '_') AS cat_id, -- Extract category ID
+        SUBSTRING(TRIM(prd_key), 7, length(TRIM(prd_key))) AS prd_key,        -- Extract product key
         TRIM(prd_nm) as prd_nm,
         COALESCE(prd_cost,0) as prd_cost,
         CASE
@@ -43,6 +45,7 @@ cleared_source AS (
 )
 SELECT
     prd_id,
+    cat_id,
     prd_key,
     prd_nm,
     prd_cost,

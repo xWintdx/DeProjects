@@ -43,8 +43,14 @@ SELECT
         WHEN sls_due_dt = 0 OR length(sls_due_dt::text)!=8 THEN NULL
         ELSE to_date(sls_due_dt::text, 'YYYYMMDD')
     END AS sls_due_dt,
-    sls_sales,
-    sls_quantity,
-    sls_price
+    CASE
+        WHEN sls_sales <=0 OR sls_sales IS NULL OR sls_sales != sls_quantity * ABS(sls_price) THEN sls_price * sls_quantity
+        ELSE sls_sales
+    END AS sls_sales,
+    CASE
+        WHEN sls_price <=0 OR sls_price IS NULL THEN sls_sales / COALESCE(sls_quantity,0)
+        ELSE sls_price
+    END AS sls_price,
+    sls_quantity
 FROM deduplicated_source
 WHERE rn = 1 AND sls_ord_num IS NOT NULL AND sls_cust_id IS NOT NULL
