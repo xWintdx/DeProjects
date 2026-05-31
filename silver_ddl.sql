@@ -49,22 +49,22 @@ CREATE TABLE IF NOT EXISTS silver.sales_details (
     );
 
 CREATE TABLE IF NOT EXISTS silver.cust_az12 (
-    CID VARCHAR(50) PRIMARY KEY,
-    BDATE TIMESTAMP,
-    GEN VARCHAR(50),
+    cid VARCHAR(50) PRIMARY KEY,
+    bdate TIMESTAMP,
+    gen VARCHAR(50),
     dw_create_date TIMESTAMP WITH TIME ZONE DEFAULT NOW()
     );
 
 CREATE TABLE IF NOT EXISTS silver.loc_a101 (
-    CID VARCHAR(50) PRIMARY KEY,
-    CNTRY VARCHAR(50),
+    cid VARCHAR(50) PRIMARY KEY,
+    cntry VARCHAR(50),
     dw_create_date TIMESTAMP WITH TIME ZONE DEFAULT NOW()
     );
 
 CREATE TABLE IF NOT EXISTS silver.px_cat_g1v2 (
-    ID VARCHAR(50) PRIMARY KEY,
-    CAT VARCHAR(50),
-    SUBCAT VARCHAR(50),
-    MAINTENANCE VARCHAR(50),
+    id VARCHAR(50) PRIMARY KEY,
+    cat VARCHAR(50),
+    subcat VARCHAR(50),
+    maintenance VARCHAR(50),
     dw_create_date TIMESTAMP WITH TIME ZONE DEFAULT NOW()
     );

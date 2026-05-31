@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/silver_cust_az12_dml.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/silver_cust_info_dml.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/silver_ddl.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/silver_loc_a101_dml.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/silver_prd_info_dml.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/silver_px_cat_g1v2.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/silver_sales_details_dml.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/tests/test_az12_bdate_values.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/tests/test_az12_duplicates.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/tests/test_az12_gender_values.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/tests/test_cust_duplicates.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/tests/test_cust_gndr_values.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/tests/test_cust_trim_values.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/tests/test_loc_a101_cntry_values.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/tests/test_loc_a101_duplicates.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/tests/test_prd_chronology.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/tests/test_prd_info_duplicates.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/tests/test_prd_info_line_values.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/tests/test_prd_info_nuil_in_cost.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/tests/test_prd_info_trim.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/tests/test_sales_details_client_exist.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/tests/test_sales_details_duplicates.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/tests/test_sales_details_null_check.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/tests/test_sales_details_prd_key.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/tests/test_sales_details_sales.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/tests/test_sales_details_trim.sql" dialect="PostgreSQL" />
     <file url="PROJECT" dialect="PostgreSQL" />
   </component>
 </project>

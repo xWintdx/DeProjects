@@ -35,7 +35,8 @@ def scan_target_folders(folder_names,engine):
             if item.is_dir():
                 for value in item.iterdir():
                     if value.is_file() and value.suffix == '.csv':
-                        df = pd.read_csv(value, encoding='utf-8')
+                        df = pd.read_csv(value)
+                        df.columns = df.columns.str.lower()
                         load_to_bronze(df, value.name.removesuffix(".csv").lower(), engine)
 
 scan_target_folders(['datasets'],engine)
