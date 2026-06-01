@@ -1,4 +1,4 @@
--- Шаг 1: Очищае данные, если есть
+-- Шаг 1: Очищаем данные, если есть
 TRUNCATE TABLE silver.prd_info;
 
 -- Шаг 2: Заливаем новые данные
@@ -21,8 +21,20 @@ WITH deduplicated_source AS (
         prd_cost,
         prd_line,
         prd_start_dt,
-        ROW_NUMBER() over (PARTITION BY prd_id ORDER BY prd_start_dt DESC) as rn
+        ROW_NUMBER() over (PARTITION BY prd_id, prd_start_dt ORDER BY prd_start_dt DESC) as rn
     FROM bronze.prd_info
+),
+with_end_dt AS (
+    SELECT
+        prd_id,
+        prd_key,
+        prd_nm,
+        prd_cost,
+        prd_line,
+        prd_start_dt,
+        LEAD(prd_start_dt) OVER(PARTITION BY prd_key ORDER BY prd_start_dt)::DATE - 1 as prd_end_dt_clear
+    FROM deduplicated_source
+    WHERE rn = 1
 ),
 cleared_source AS (
     SELECT
@@ -39,9 +51,8 @@ cleared_source AS (
         ELSE 'Unknown'
         END AS prd_line,
         prd_start_dt,
-        LEAD(prd_start_dt) OVER(PARTITION BY prd_key ORDER BY prd_start_dt)::DATE - 1 as prd_end_dt_clear
-    FROM deduplicated_source
-    WHERE rn = 1
+        prd_end_dt_clear
+    FROM with_end_dt
 )
 SELECT
     prd_id,
@@ -53,5 +64,4 @@ SELECT
     prd_start_dt::DATE,
     prd_end_dt_clear,
     CURRENT_TIMESTAMP as dw_create_date
-FROM cleared_source
-WHERE prd_id is not NULL;
+FROM cleared_source;
