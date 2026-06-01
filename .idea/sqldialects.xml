@@ -21,6 +21,7 @@
     <file url="file://$PROJECT_DIR$/tests/test_prd_info_line_values.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/tests/test_prd_info_nuil_in_cost.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/tests/test_prd_info_trim.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/tests/test_px_cat_g1v2_duplicates.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/tests/test_sales_details_client_exist.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/tests/test_sales_details_duplicates.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/tests/test_sales_details_null_check.sql" dialect="PostgreSQL" />

@@ -47,10 +47,10 @@ SELECT
         WHEN sls_sales <=0 OR sls_sales IS NULL OR sls_sales != sls_quantity * ABS(sls_price) THEN sls_price * sls_quantity
         ELSE sls_sales
     END AS sls_sales,
+    sls_quantity,
     CASE
-        WHEN sls_price <=0 OR sls_price IS NULL THEN sls_sales / COALESCE(sls_quantity,0)
+        WHEN sls_price <=0 OR sls_price IS NULL THEN sls_sales / NULLIF(sls_quantity,0)
         ELSE sls_price
-    END AS sls_price,
-    sls_quantity
+    END AS sls_price
 FROM deduplicated_source
 WHERE rn = 1 AND sls_ord_num IS NOT NULL AND sls_cust_id IS NOT NULL
