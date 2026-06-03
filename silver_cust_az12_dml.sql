@@ -17,7 +17,10 @@ WITH deduplicated_source as (
     WHERE cid is not NULL
 )
 SELECT
-    substring(trim(cid),4, length(trim(cid))),
+    CASE
+        WHEN substring(lower(trim(cid)),1, 3) = 'nas' THEN upper(replace(lower((cid)),'nas',''))
+        ELSE cid
+    END AS cid,
     CASE
         WHEN bdate::date > NOW() then null
         else bdate::date
