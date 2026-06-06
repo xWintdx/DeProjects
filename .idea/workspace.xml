@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8a27b33b-9563-4aac-97c4-d6b4cf132355" name="Changes" comment="Написан Python-скрипт (экстракция данных)" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;xWintdx&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/xWintdx/DeProjects.git&quot;,
+    &quot;accountId&quot;: &quot;eaa24a50-5f23-4687-9f8f-e05d0e34517f&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="3DWv5W8fDLSzfWdBMNI6dWQpKn3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Database Script.silver_cust_az12_dml.sql.executor": "Run",
+    "Python tests.Python tests in python_mentor.py.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.python_mentor.executor": "Run",
+    "Python.run_dq_tests.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/de_mentor",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "database.query.execution",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ],
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
+    ],
+    "RunConfigurationTargetLRU": [
+      "4b66634f-bdd4-438e-8836-e0e3387f5042/database/\"de_playground\"/schema/\"silver\""
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DeProjects\gold" />
+      <recent name="D:\DeProjects\silver" />
+      <recent name="D:\DeProjects" />
+      <recent name="D:\DeProjects\Arch" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="silver_cust_az12_dml.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/silver_cust_az12_dml.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="4b66634f-bdd4-438e-8836-e0e3387f5042" namespace="database/&quot;de_playground&quot;/schema/&quot;silver&quot;" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23339.19" />
+        <option value="bundled-python-sdk-0029f7779945-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23339.19" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a27b33b-9563-4aac-97c4-d6b4cf132355" name="Changes" comment="" />
+      <created>1778410457444</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1778410457444</updated>
+      <workItem from="1778410460271" duration="444000" />
+      <workItem from="1778410928373" duration="6143000" />
+      <workItem from="1778474191986" duration="12477000" />
+      <workItem from="1778553845575" duration="6809000" />
+      <workItem from="1778644039730" duration="3815000" />
+      <workItem from="1778728271826" duration="4495000" />
+      <workItem from="1778768990562" duration="3620000" />
+      <workItem from="1778813292831" duration="4421000" />
+      <workItem from="1779159634358" duration="5292000" />
+      <workItem from="1779245366306" duration="4991000" />
+      <workItem from="1779252908097" duration="2000" />
+      <workItem from="1779286515994" duration="5744000" />
+      <workItem from="1779331638102" duration="5174000" />
+      <workItem from="1779376445751" duration="2104000" />
+      <workItem from="1779418554990" duration="1179000" />
+      <workItem from="1779612202218" duration="5339000" />
+      <workItem from="1779676435895" duration="5912000" />
+      <workItem from="1779719520228" duration="3769000" />
+      <workItem from="1779724418565" duration="225000" />
+      <workItem from="1779763659895" duration="5717000" />
+      <workItem from="1779769493625" duration="12000" />
+      <workItem from="1779817299020" duration="1312000" />
+      <workItem from="1779849583979" duration="5918000" />
+      <workItem from="1779936638664" duration="5789000" />
+      <workItem from="1780025561600" duration="4718000" />
+      <workItem from="1780205969778" duration="8343000" />
+      <workItem from="1780249520353" duration="2941000" />
+      <workItem from="1780283320368" duration="4027000" />
+      <workItem from="1780369700873" duration="5380000" />
+      <workItem from="1780454308031" duration="5349000" />
+      <workItem from="1780541705732" duration="1367000" />
+      <workItem from="1780634793043" duration="243000" />
+      <workItem from="1780667068988" duration="1455000" />
+      <workItem from="1780717597562" duration="3736000" />
+    </task>
+    <task id="LOCAL-00001" summary="Написан Python-скрипт (экстракция данных)">
+      <option name="closed" value="true" />
+      <created>1779247089814</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1779247089814</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Реализовал загрузку данных (Load) из Python в БД.">
+      <option name="closed" value="true" />
+      <created>1779249154662</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1779249154662</updated>
+    </task>
+    <task id="LOCAL-00003" summary="DL — Создал структуру таблиц для слоя Silver">
+      <option name="closed" value="true" />
+      <created>1779292577240</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1779292577240</updated>
+    </task>
+    <task id="LOCAL-00004" summary="DML — Очистка и загрузка измерений (Клиенты и Продукты). &#10;Написал первую часть для продуктов">
+      <option name="closed" value="true" />
+      <created>1779338426166</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1779338426166</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Скорректировал логику после Аудита">
+      <option name="closed" value="true" />
+      <created>1779615050644</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1779615050644</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Правки V2">
+      <option name="closed" value="true" />
+      <created>1779676678601</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1779676678601</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Написал DDL и DML для таблицы `silver.prd_info`">
+      <option name="closed" value="true" />
+      <created>1779724395402</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1779724395402</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Создать папку `tests/` с SQL-проверками для таблиц `silver.cust_info` и `silver.prd_info` + внёс небольшие правки в dml скрипт для таблицы silver.prd_info">
+      <option name="closed" value="true" />
+      <created>1779768590095</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1779768590095</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Слайс 3. Silver Layer: Очистка фактов (Продажи) + Grain Test&#10;Сделал trim + очистку даты, остается еще сумма и написание тестов">
+      <option name="closed" value="true" />
+      <created>1779855833870</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1779855833871</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Слайс 3. SilverLayer&#10;-  **Очистка цены (`price`):** Если цена `&lt;= 0` или `IS NULL`, мы пересчитываем её по формуле: `sales / NULLIF(quantity, 0)`. &#10;- **Очистка суммы (`sales`):** Если сумма `&lt;= 0`, `IS NULL` или математика не сходится (`sales != quantity * ABS(price)`), то мы жестко пересчитываем сумму: `quantity * ABS(price)`. В остальных случаях оставляем как есть.&#10;- **Логический тест (в папке `tests/`):** Проверить, нет ли строк, где `order_dt &gt; ship_dt` (отправили раньше, чем заказали). &#10;- **Referential Integrity (Ссылочная целостность):** Убедиться, что все `prd_key` из продаж реально существуют в таблице продуктов, а `cust_id` — в таблице клиентов.&#10;- Скорректировал скрипт создания и заливки данных в prd_info (Распилил сырой `prd_key` на две новые колонки: `category_id` и нормальный `product_key`)">
+      <option name="closed" value="true" />
+      <created>1779941823079</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1779941823079</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Слайс 3. SilverLayer&#10;-  **Очистка цены (`price`):** Если цена `&lt;= 0` или `IS NULL`, мы пересчитываем её по формуле: `sales / NULLIF(quantity, 0)`. &#10;- **Очистка суммы (`sales`):** Если сумма `&lt;= 0`, `IS NULL` или математика не сходится (`sales != quantity * ABS(price)`), то мы жестко пересчитываем сумму: `quantity * ABS(price)`. В остальных случаях оставляем как есть.&#10;- **Логический тест (в папке `tests/`):** Проверить, нет ли строк, где `order_dt &gt; ship_dt` (отправили раньше, чем заказали). &#10;- **Referential Integrity (Ссылочная целостность):** Убедиться, что все `prd_key` из продаж реально существуют в таблице продуктов, а `cust_id` — в таблице клиентов.&#10;- Скорректировал скрипт создания и заливки данных в prd_info (Распилил сырой `prd_key` на две новые колонки: `category_id` и нормальный `product_key`)">
+      <option name="closed" value="true" />
+      <created>1779941830535</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1779941830535</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Слайс 2. SilverLayer&#10; `erp_cust_az12`: Отрезать мусор `NAS-` из `cid`, вычистить даты из 2050 года в `bdate`, **нормализовать поле `gen` (пол) через `CASE WHEN` к единому стандарту ('Male'/'Female')**. &#10;- `erp_loc_a101`: Убрать дефисы из `loc`, привести страны к стандарту (USA, DE). &#10;- `erp_px_cat_g1v2`: Переложить с корректными типами данных.">
+      <option name="closed" value="true" />
+      <created>1780223402747</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1780223402747</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Description fix">
+      <option name="closed" value="true" />
+      <created>1780223903528</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1780223903528</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Fix: sales dml column order + nullif + px_cat test">
+      <option name="closed" value="true" />
+      <created>1780284594301</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1780284594301</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Fix: prd_info_dml.sql">
+      <option name="closed" value="true" />
+      <created>1780285392443</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1780285392443</updated>
+    </task>
+    <task id="LOCAL-00016" summary="1. Gold Layer: Моделирование измерений (Dim) + 2. Gold Layer: Моделирование фактов (Fact) и Star Schema">
+      <option name="closed" value="true" />
+      <created>1780459744470</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1780459744470</updated>
+    </task>
+    <task id="LOCAL-00017" summary="2. Gold Layer: Моделирование фактов (Fact) и Star Schema">
+      <option name="closed" value="true" />
+      <created>1780719181510</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1780719181510</updated>
+    </task>
+    <task id="LOCAL-00018" summary="3. Автоматизация Data Quality (Python) &#10;**Формулировка:** Написан Python-скрипт `run_dq_tests.py`, который автоматизирует проверку качества данных.">
+      <option name="closed" value="true" />
+      <created>1780721253017</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1780721253017</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Написан Python-скрипт (экстракция данных)" />
+    <MESSAGE value="Реализовал загрузку данных (Load) из Python в БД." />
+    <MESSAGE value="DL — Создал структуру таблиц для слоя Silver" />
+    <MESSAGE value="DML — Очистка и загрузка измерений (Клиенты и Продукты). &#10;Написал первую часть для продуктов" />
+    <MESSAGE value="Скорректировал логику после Аудита" />
+    <MESSAGE value="Правки V2" />
+    <MESSAGE value="Написал DDL и DML для таблицы `silver.prd_info`" />
+    <MESSAGE value="Создать папку `tests/` с SQL-проверками для таблиц `silver.cust_info` и `silver.prd_info` + внёс небольшие правки в dml скрипт для таблицы silver.prd_info" />
+    <MESSAGE value="Слайс 3. Silver Layer: Очистка фактов (Продажи) + Grain Test&#10;Сделал trim + очистку даты, остается еще сумма и написание тестов" />
+    <MESSAGE value="Слайс 3. SilverLayer&#10;-  **Очистка цены (`price`):** Если цена `&lt;= 0` или `IS NULL`, мы пересчитываем её по формуле: `sales / NULLIF(quantity, 0)`. &#10;- **Очистка суммы (`sales`):** Если сумма `&lt;= 0`, `IS NULL` или математика не сходится (`sales != quantity * ABS(price)`), то мы жестко пересчитываем сумму: `quantity * ABS(price)`. В остальных случаях оставляем как есть.&#10;- **Логический тест (в папке `tests/`):** Проверить, нет ли строк, где `order_dt &gt; ship_dt` (отправили раньше, чем заказали). &#10;- **Referential Integrity (Ссылочная целостность):** Убедиться, что все `prd_key` из продаж реально существуют в таблице продуктов, а `cust_id` — в таблице клиентов.&#10;- Скорректировал скрипт создания и заливки данных в prd_info (Распилил сырой `prd_key` на две новые колонки: `category_id` и нормальный `product_key`)" />
+    <MESSAGE value="Слайс 2. SilverLayer&#10; `erp_cust_az12`: Отрезать мусор `NAS-` из `cid`, вычистить даты из 2050 года в `bdate`, **нормализовать поле `gen` (пол) через `CASE WHEN` к единому стандарту ('Male'/'Female')**. &#10;- `erp_loc_a101`: Убрать дефисы из `loc`, привести страны к стандарту (USA, DE). &#10;- `erp_px_cat_g1v2`: Переложить с корректными типами данных." />
+    <MESSAGE value="Description fix" />
+    <MESSAGE value="Fix: sales dml column order + nullif + px_cat test" />
+    <MESSAGE value="Fix: prd_info_dml.sql" />
+    <MESSAGE value="1. Gold Layer: Моделирование измерений (Dim) + 2. Gold Layer: Моделирование фактов (Fact) и Star Schema" />
+    <MESSAGE value="2. Gold Layer: Моделирование фактов (Fact) и Star Schema" />
+    <MESSAGE value="3. Автоматизация Data Quality (Python) &#10;**Формулировка:** Написан Python-скрипт `run_dq_tests.py`, который автоматизирует проверку качества данных." />
+    <option name="LAST_COMMIT_MESSAGE" value="3. Автоматизация Data Quality (Python) &#10;**Формулировка:** Написан Python-скрипт `run_dq_tests.py`, который автоматизирует проверку качества данных." />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DeProjects$main.coverage" NAME="main Coverage Results" MODIFIED="1780029208061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DeProjects$python_mentor.coverage" NAME="python_mentor Coverage Results" MODIFIED="1778818186726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/W1" />
+    <SUITE FILE_PATH="coverage/DeProjects$run_dq_tests.coverage" NAME="run_dq_tests Coverage Results" MODIFIED="1780721108647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DeProjects$.coverage" NAME=" Coverage Results" MODIFIED="1778816446888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/W1" />
+  </component>
+</project>
